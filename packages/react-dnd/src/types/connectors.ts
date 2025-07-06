@@ -1,6 +1,6 @@
 import type { ReactElement, RefObject } from 'react'
 
-import type { DragPreviewOptions, DragSourceOptions } from './options'
+import type { DragPreviewOptions, DragSourceOptions } from './options.js'
 
 export type ConnectableElement = RefObject<any> | ReactElement | Element | null
 
