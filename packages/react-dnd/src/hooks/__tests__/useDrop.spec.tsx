@@ -1,6 +1,6 @@
 import { cleanup, render } from '@testing-library/react'
 
-import { TestBackend } from 'react-dnd-test-backend'
+import { TestBackend } from '@evil-internetmann/react-dnd-test-backend'
 
 import { DndProvider } from '../../index.js'
 import { useDrop } from '../useDrop/index.js'

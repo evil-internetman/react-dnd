@@ -1,6 +1,6 @@
-import { createDragDropManager } from 'dnd-core'
+import { createDragDropManager } from '@evil-internetmann/dnd-core'
 
-import { TestBackend } from 'react-dnd-test-backend'
+import { TestBackend } from '@evil-internetmann/react-dnd-test-backend'
 
 import { DropTargetMonitorImpl } from '../DropTargetMonitorImpl.js'
 

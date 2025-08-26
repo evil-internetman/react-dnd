@@ -1,6 +1,6 @@
 import { cleanup, render } from '@testing-library/react'
 import type { FC } from 'react'
-import { TestBackend } from 'react-dnd-test-backend'
+import { TestBackend } from '@evil-internetmann/react-dnd-test-backend'
 import { fireDrag } from 'react-dnd-test-utils'
 
 import { DndProvider } from '../../index.js'

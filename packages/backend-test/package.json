@@ -1,5 +1,5 @@
 {
-  "name": "react-dnd-test-backend",
+  "name": "@evil-internetmann/react-dnd-test-backend",
   "version": "16.0.1",
   "description": "A mock backend for testing React DnD apps",
   "main": "./dist/cjs/index.js",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-dnd/react-dnd.git"
+    "url": "https://github.com/evil-internetman/react-dnd.git"
   },
   "scripts": {
     "clean": "shx rm -rf dist/",
@@ -28,10 +28,10 @@
     "release": "yarn npm publish --tolerate-republish --access public"
   },
   "dependencies": {
-    "dnd-core": "workspace:^"
+    "@evil-internetmann/dnd-core": "workspace:^"
   },
   "devDependencies": {
-    "@react-dnd/eslint-config": "workspace:^",
+    "@evil-internetmann/eslint-config": "workspace:^",
     "@swc/cli": "^0.1.59",
     "@swc/core": "^1.3.27",
     "eslint": "^8.32.0",

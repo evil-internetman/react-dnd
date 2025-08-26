@@ -1,4 +1,4 @@
-import type { DragDropManager } from 'dnd-core'
+import type { DragDropManager } from '@evil-internetmann/dnd-core'
 import { createContext } from 'react'
 
 /**

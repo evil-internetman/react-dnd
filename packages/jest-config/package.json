@@ -1,6 +1,5 @@
 {
-	"name": "@react-dnd/jest-config",
-	"private": true,
+	"name": "@evil-internetmann/jest-config",
 	"dependencies": {
 		"@swc/core": "^1.3.27",
 		"@swc/jest": "^0.2.24",

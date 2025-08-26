@@ -1,7 +1,7 @@
 import 'setimmediate'
 
-import type { ITestBackend } from 'react-dnd-test-backend'
-import { TestBackend } from 'react-dnd-test-backend'
+import type { ITestBackend } from '@evil-internetmann/react-dnd-test-backend'
+import { TestBackend } from '@evil-internetmann/react-dnd-test-backend'
 
 import { createDragDropManager } from '../createDragDropManager.js'
 import type { DragDropManager, HandlerRegistry } from '../interfaces.js'

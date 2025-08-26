@@ -1,5 +1,5 @@
-import { shallowEqual } from '@react-dnd/shallowequal'
-import type { Backend, Identifier, Unsubscribe } from 'dnd-core'
+import { shallowEqual } from '@evil-internetmann/shallowequal'
+import type { Backend, Identifier, Unsubscribe } from '@evil-internetmann/dnd-core'
 import type { RefObject } from 'react'
 
 import type { DropTargetOptions } from '../types/index.js'

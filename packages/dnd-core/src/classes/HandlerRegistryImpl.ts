@@ -1,5 +1,5 @@
-import { asap } from '@react-dnd/asap'
-import { invariant } from '@react-dnd/invariant'
+import { asap } from '@evil-internetmann/asap'
+import { invariant } from '@evil-internetmann/invariant'
 import type { Store } from 'redux'
 
 import {

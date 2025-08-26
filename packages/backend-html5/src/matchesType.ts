@@ -1,7 +1,7 @@
 //
 // HACK: copied from dnd-core. duplicating here to fix a CI issue
 //
-import type { Identifier, SourceType, TargetType } from 'dnd-core'
+import type { Identifier, SourceType, TargetType } from '@evil-internetmann/dnd-core'
 
 export function matchesType(
 	targetType: TargetType | null,

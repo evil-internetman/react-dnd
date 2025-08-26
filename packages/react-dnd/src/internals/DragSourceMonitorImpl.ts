@@ -1,4 +1,4 @@
-import { invariant } from '@react-dnd/invariant'
+import { invariant } from '@evil-internetmann/invariant'
 import type {
 	DragDropManager,
 	DragDropMonitor,
@@ -6,7 +6,7 @@ import type {
 	Listener,
 	Unsubscribe,
 	XYCoord,
-} from 'dnd-core'
+} from '@evil-internetmann/dnd-core'
 
 import type { DragSourceMonitor } from '../types/index.js'
 

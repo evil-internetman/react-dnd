@@ -1,6 +1,6 @@
 import { cleanup, render } from '@testing-library/react'
-import { createDragDropManager } from 'dnd-core'
-import { TestBackend } from 'react-dnd-test-backend'
+import { createDragDropManager } from '@evil-internetmann/dnd-core'
+import { TestBackend } from '@evil-internetmann/react-dnd-test-backend'
 
 import type { DndContextType } from '../DndContext.js'
 import { DndContext } from '../DndContext.js'

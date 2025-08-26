@@ -7,7 +7,7 @@ import type {
 	Identifier,
 	Unsubscribe,
 	XYCoord,
-} from 'dnd-core'
+} from '@evil-internetmann/dnd-core'
 
 import { EnterLeaveCounter } from './EnterLeaveCounter.js'
 import {

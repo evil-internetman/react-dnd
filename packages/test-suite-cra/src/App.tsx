@@ -1,9 +1,9 @@
 import './App.css'
 
 import { memo, useCallback, useMemo, useState } from 'react'
-import { DndProvider } from 'react-dnd'
-import { componentIndex } from 'react-dnd-examples'
-import { HTML5Backend } from 'react-dnd-html5-backend'
+import { DndProvider } from '@evil-internetmann/react-dnd'
+import { componentIndex } from '@evil-internetmann/react-dnd-examples'
+import { HTML5Backend } from '@evil-internetmann/react-dnd-html5-backend'
 
 const exampleNames = Object.keys(componentIndex)
 

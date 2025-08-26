@@ -1,7 +1,6 @@
 {
-  "name": "react-dnd-examples",
+  "name": "@evil-internetmann/react-dnd-examples",
   "version": "16.0.1",
-  "private": true,
   "description": "Drag and Drop for React",
   "type": "module",
   "main": "dist/index.js",
@@ -9,7 +8,7 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-dnd/react-dnd.git"
+    "url": "https://github.com/evil-internetman/react-dnd.git"
   },
   "license": "MIT",
   "scripts": {
@@ -23,17 +22,18 @@
     "check": "eslint src --ext .js,.jsx,.mjs,.cjs,.ts,.tsx,.cts,.mts --resolve-plugins-relative-to ../eslint-config"
   },
   "dependencies": {
-    "dnd-core": "workspace:^",
+    "@evil-internetmann/dnd-core": "workspace:^",
+    "@evil-internetmann/react-dnd": "workspace:^",
+    "@evil-internetmann/react-dnd-html5-backend": "workspace:^",
     "faker": "^5.5.3",
     "immutability-helper": "^3.1.1",
     "lodash": "^4.17.21",
-    "react-dnd": "workspace:^",
-    "react-dnd-html5-backend": "workspace:^",
     "react-frame-component": "^5.2.6"
   },
   "devDependencies": {
-    "@react-dnd/eslint-config": "workspace:^",
-    "@react-dnd/jest-config": "workspace:^",
+    "@evil-internetmann/eslint-config": "workspace:^",
+    "@evil-internetmann/jest-config": "workspace:^",
+    "@evil-internetmann/test-utils": "workspace:^",
     "@swc/cli": "^0.1.59",
     "@swc/core": "^1.3.27",
     "@testing-library/jest-dom": "^5.16.5",
@@ -47,7 +47,6 @@
     "jest": "^29.3.1",
     "npm-run-all": "^4.1.5",
     "react": "^18.2.0",
-    "react-dnd-test-utils": "workspace:^",
     "shx": "^0.3.4",
     "typescript": "~4.9.4"
   },

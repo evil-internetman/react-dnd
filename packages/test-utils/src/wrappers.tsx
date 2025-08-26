@@ -1,10 +1,10 @@
-import type { BackendFactory } from 'dnd-core'
+import type { BackendFactory } from '@evil-internetmann/dnd-core'
 import type { ComponentType, Ref } from 'react'
 import { Component, forwardRef } from 'react'
-import { DndProvider } from 'react-dnd'
-import { HTML5Backend } from 'react-dnd-html5-backend'
-import type { ITestBackend, TestBackendOptions } from 'react-dnd-test-backend'
-import { TestBackend } from 'react-dnd-test-backend'
+import { DndProvider } from '@evil-internetmann/react-dnd'
+import { HTML5Backend } from '@evil-internetmann/react-dnd-html5-backend'
+import type { ITestBackend, TestBackendOptions } from '@evil-internetmann/react-dnd-test-backend'
+import { TestBackend } from '@evil-internetmann/react-dnd-test-backend'
 
 /**
  * Wrap a Component with a DnDContext using the TestBackend

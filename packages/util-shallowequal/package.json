@@ -1,5 +1,5 @@
 {
-  "name": "@react-dnd/shallowequal",
+  "name": "@evil-internetmann/shallowequal",
   "version": "4.0.2",
   "description": "Like lodash isEqualWith but for shallow equal.",
   "keywords": [
@@ -12,11 +12,11 @@
   ],
   "license": "MIT",
   "author": {
-    "name": "Alberto Leal",
-    "email": "mailforalberto@gmail.com",
-    "url": "https://github.com/dashed"
+    "name": "Evil InternetMan",
+    "email": "evil-internetman@proton.me",
+    "url": "https://github.com/evil-internetman"
   },
-  "repository": "https://github.com/react-dnd/react-dnd",
+  "repository": "https://github.com/evil-internetman/react-dnd",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.mjs",
   "types": "./dist/types/index.d.ts",
@@ -38,8 +38,8 @@
     "release": "yarn npm publish --tolerate-republish --access public"
   },
   "devDependencies": {
-    "@react-dnd/eslint-config": "workspace:^",
-    "@react-dnd/jest-config": "workspace:^",
+    "@evil-internetmann/eslint-config": "workspace:^",
+    "@evil-internetmann/jest-config": "workspace:^",
     "@swc/cli": "^0.1.59",
     "@swc/core": "^1.3.27",
     "@types/jest": "^29.2.6",

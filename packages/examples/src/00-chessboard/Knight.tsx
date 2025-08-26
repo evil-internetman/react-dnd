@@ -1,5 +1,5 @@
 import type { CSSProperties, FC } from 'react'
-import { DragPreviewImage, useDrag } from 'react-dnd'
+import { DragPreviewImage, useDrag } from '@evil-internetmann/react-dnd'
 
 import { ItemTypes } from './ItemTypes.js'
 import { knightImage } from './knightImage.js'

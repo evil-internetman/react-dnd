@@ -1,5 +1,5 @@
 {
-  "name": "@react-dnd/invariant",
+  "name": "@evil-internetmann/invariant",
   "version": "4.0.2",
   "description": "invariantx",
   "keywords": [
@@ -7,8 +7,8 @@
     "invariant"
   ],
   "license": "MIT",
-  "author": "Andres Suarez <zertosh@gmail.com>",
-  "repository": "https://github.com/react-dnd/react-dnd",
+  "author": "Evil InternetMan <evil-internetman@proton.me>",
+  "repository": "https://github.com/evil-internetman/react-dnd",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.mjs",
   "types": "./dist/types/index.d.ts",
@@ -29,7 +29,7 @@
     "release": "yarn npm publish --tolerate-republish --access public"
   },
   "devDependencies": {
-    "@react-dnd/eslint-config": "workspace:^",
+    "@evil-internetmann/eslint-config": "workspace:^",
     "@swc/cli": "^0.1.59",
     "@swc/core": "^1.3.27",
     "@types/jest": "^29.2.6",

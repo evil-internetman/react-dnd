@@ -1,6 +1,5 @@
 {
-	"name": "@react-dnd/eslint-config",
-	"private": true,
+	"name": "@evil-internetmann/eslint-config",
 	"dependencies": {
 		"@typescript-eslint/eslint-plugin": "^5.48.2",
 		"@typescript-eslint/parser": "^5.48.2",

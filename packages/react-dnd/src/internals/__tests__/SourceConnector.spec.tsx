@@ -1,4 +1,4 @@
-import type { Backend } from 'dnd-core'
+import type { Backend } from '@evil-internetmann/dnd-core'
 
 
 import { SourceConnector } from '../SourceConnector.js'
